@@ -9,4 +9,4 @@ functions:
   cron:
     handler: handler.run
     events:
-      - schedule: cron(0 5,6,7,8 ? * MON-FRI *)
+      - schedule: cron(0/15 5,6,7,8 ? * MON-FRI *)
